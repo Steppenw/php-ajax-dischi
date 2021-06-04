@@ -28,6 +28,9 @@ main .brand {
   padding: 5px 0;
   align-items: center;
 }
+main .brand > img {
+  width: 80px;
+}
 main .brand > h1 {
   margin-left: 10px;
 }

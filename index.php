@@ -111,7 +111,8 @@ function show($list) {
   <main>
     <div class="container">
       <div class="brand flex">
-        <i class="fas fa-music fa-2x"></i>
+        <!--<i class="fas fa-music fa-2x"></i>-->
+        <img src="imgs/vinyl-2241789_640.png" alt="brand">
         <h1>My Albums</h1>
       </div>
       <div class="catalog flex border">

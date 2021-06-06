@@ -1,0 +1,17 @@
+/*HEADER*/
+header {
+  background-color: darkgrey;
+}
+
+header .brand {
+  padding: 5px 0;
+  align-items: center;
+
+  > img {
+    width: 80px;
+  }
+
+  > h1 {
+    margin-left: 10px;
+  }
+}

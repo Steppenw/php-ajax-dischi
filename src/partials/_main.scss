@@ -1,20 +1,8 @@
 /*MAIN*/
 main {
-  padding: 30px;
+  padding: 50px 30px;
   background-color: aliceblue;
-
-  .brand {
-    padding: 5px 0;
-    align-items: center;
-
-    > img {
-      width: 80px;
-    }
-
-    > h1 {
-      margin-left: 10px;
-    }
-  }
+  overflow: auto;
 
   .catalog {
     flex-wrap: wrap;

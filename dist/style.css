@@ -15,24 +15,40 @@
   display: flex;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
 .border {
   border: 1px solid lightgrey;
 }
 
-/*MAIN*/
-main {
-  padding: 30px;
-  background-color: aliceblue;
+/*HEADER*/
+header {
+  background-color: darkgrey;
 }
-main .brand {
+
+header .brand {
   padding: 5px 0;
   align-items: center;
 }
-main .brand > img {
+header .brand > img {
   width: 80px;
 }
-main .brand > h1 {
+header .brand > h1 {
   margin-left: 10px;
+}
+
+/*MAIN*/
+main {
+  padding: 50px 30px;
+  background-color: aliceblue;
+  overflow: auto;
 }
 main .catalog {
   flex-wrap: wrap;
